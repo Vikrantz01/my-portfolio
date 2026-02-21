@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website!  
 This portfolio showcases my skills, projects, and experience as a **Frontend Developer & Creative Tech Enthusiast**.
 
-🌐 Live Preview👇🏻
+🌐 Live Preview 👉🏼
 https://vikrantz-portfolio.netlify.app/
 
 ---
