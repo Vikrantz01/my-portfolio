@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vikrant Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/fevicon.png">
+
+</head>
+
+<body>
+    <!-- Site loader (shown on initial page load) -->
+    <div id="site-loader" aria-hidden="false">
+        <div class="loader-inner" role="status" aria-live="polite">
+            <svg class="spinner" viewBox="0 0 50 50" aria-hidden="true">
+                <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="4"></circle>
+            </svg>
+            <span class="loader-text">Loading My World…</span>
+        </div>
+    </div>
+    <noscript>
+        <style>
+            /* If JS is disabled, hide loader so content remains visible */
+            #site-loader {
+                display: none !important;
+            }
+        </style>
+    </noscript>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">Vikrant | <span> Portfolio</span></a>
+            <nav class="nav" id="nav" aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="#services">What I Do</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+
+                
+            </nav>
+            <div id="nav-overlay"></div>
+            <div id="live-time" class="live-time"></div>
+            <button id="dark-mode-toggle" class="btn ghost" aria-label="Toggle dark mode" title="Toggle dark mode">
+                🌙
+            </button>
+            <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <small class="eyebrow">WELCOME TO MY WORLD</small>
+                    
+                    <h1>Hi, I'm <span class="name">Vikrant Suman</span><br><span class="accent">A Professional
+                            Web Developer.</span>
+                    </h1>
+                    <p class="lead">"I’m a web developer specializing in clean and modern UI designs, with seamless
+                        backend and database integration."</p>
+
+                    <div class="hero-buttons">
+                        <a class="btn primary" href="#portfolio">My Portfolio</a>
+                        <a class="btn ghost" href="#">View Resume</a>
+                    </div>
+
+                    <ul class="socials">
+                        <li><a href="https://www.instagram.com/_vikrantz01?igsh=ZjJmYmM5ZWllcWhs">Instagram</a></li>
+                        <li><a href="https://github.com/Vikrantz01">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/vikrant-suman-b03228334/">LinkedIn</a></li>
+                    </ul>
+                </div>
+
+                <div class="hero-card">
+                    <div class="avatar-card">
+                        <img src="assets/hero section id.jpg" alt="Avatar" class="avatar">
+                        <div class="avatar-badge">Hello 👋🏻</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">What I Do</h2>
+                <div class="cards-grid">
+                    <article class="card">
+                        <h3>Frontend Development</h3>
+                        <p>"I build fast, responsive, and modern user interfaces using HTML, CSS, JavaScript, and
+                            frameworks like React JS."</p>
+                    </article>
+                    <article class="card">
+                        <h3>Backend Development</h3>
+                        <p>"I develop secure and scalable backend systems using Node.js Express, and MongoDB from
+                            Complete web solutions."</p>
+                    </article>
+                    <article class="card">
+                        <h3>Database Management</h3>
+                        <p>"I design and manage databases using MongoDB to ensure secure, scalable, and efficient data
+                            handling."</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-sub">Selected works — click to view details</p>
+                <div class="portfolio-grid" id="portfolio-grid">
+                    <article class="portfolio-item">
+                        <img class="portfolio-thumb" src="assets/ecommerce tech webiste.png" alt="Tech Website">
+                        <div class="portfolio-meta">
+                            <h4>Tech Website</h4>
+                            <p>A modern Ui and responsive design.</p>
+                            <div class="portfolio-actions">
+                                <a class="btn ghost view-project" href="https://echotechz.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">View Project</a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="portfolio-item">
+                        <img class="portfolio-thumb" src="assets/weather app.png" alt="Weather app">
+                        <div class="portfolio-meta">
+                            <h4>Weather app</h4>
+                            <p>A weather app show all weather.</p>
+                            <div class="portfolio-actions">
+                                <a class="btn ghost view-project" href="https://climecloud.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">View Project</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <img class="portfolio-thumb" src="assets/todo.png" alt="Hair salon Appointment Book Website">
+                        <div class="portfolio-meta">
+                            <h4>Todo App</h4>
+                            <p>Tasks Simplified, Goals Amplified.</p>
+                            <div class="portfolio-actions">
+                                <a class="btn ghost view-project" href="https://v-todo.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">View Project</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <img class="portfolio-thumb" src="assets/b5ccf2b2-3e9a-490b-ac55-a94a768f767a-cover.png"
+                            alt="Food Delivery Website">
+                        <div class="portfolio-meta">
+                            <h4>Food Delivery Website</h4>
+                            <p>A food delivery website.</p>
+                            <div class="portfolio-actions">
+                                <a class="btn ghost view-project" href="https://hifoodies.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">View Project</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <img class="portfolio-thumb" src="assets/resume deign.png" alt="Resume Design Website">
+                        <div class="portfolio-meta">
+                            <h4>Resume Design Website</h4>
+                            <p>A Resume design website.</p>
+                            <div class="portfolio-actions">
+                                <a class="btn ghost view-project" href="https://vikrant-resume.netlify.app/"
+                                    target="_blank" rel="noopener noreferrer">View Project</a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="portfolio-item">
+                        <img class="portfolio-thumb" src="assets/hiicoffee.png" alt="Spotify Clone">
+                        <div class="portfolio-meta">
+                            <h4>Coffee shop website</h4>
+                            <p>Taste the World, One Sip at a Time.</p>
+                            <div class="portfolio-actions">
+                                <a class="btn ghost view-project" href="https://hicoffee.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">View Project</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="resume">
+            <div class="container resume-inner">
+                <h2 class="section-title">My Resume</h2>
+                <div class="resume-grid">
+                    <div class="resume-card">
+                        <h3>Education</h3>
+                        <p>BCA - Makhanlal Chaturvedi National University of Journalism and Communication, Bhopal,
+                            Madhya Pradesh, India.</p>
+                    </div>
+                    <div class="resume-card">
+                        <h3>Experience</h3>
+                        <p>2 year senior Web Development Instructor — Computer Institute.</p>
+                    </div>
+                    <div class="resume-card">
+                        <h3>Skills</h3>
+                        <p>HTML, CSS, JavaScript, Python, Github, MongoDB.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container contact-inner">
+                <h2 class="section-title">Contact</h2>
+                <form class="contact-form" id="contact-form">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                    <div class="form-actions">
+                        <button class="btn primary" type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Vikrant Suman — Crafted with ❤️</p>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+        <div class="lightbox-inner">
+            <button id="lightbox-close" class="lightbox-close" aria-label="Close">✘</button>
+            <img id="lightbox-img" src="" alt="">
+            <div id="lightbox-caption" class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
